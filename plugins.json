@@ -1,0 +1,46 @@
+{
+  "plugins": [
+    {
+      "id": "dark-theme",
+      "name": "Dark Theme Pro",
+      "description": "Enhanced dark theme with customizable accent colors",
+      "version": "1.0.0",
+      "author": "DesQTA Team",
+      "icon": "🌙",
+      "repository": {
+        "owner": "desqta",
+        "repo": "dark-theme-pro",
+        "branch": "main"
+      },
+      "banner": {
+        "light": "https://raw.githubusercontent.com/desqta/dark-theme-pro/main/assets/banner-light.png",
+        "dark": "https://raw.githubusercontent.com/desqta/dark-theme-pro/main/assets/banner-dark.png"
+      },
+      "readme": "# Dark Theme Pro\n\n## Features\n- 🌙 Multiple dark mode variants\n...",
+      "screenshots": [
+        "https://raw.githubusercontent.com/desqta/dark-theme-pro/main/assets/screenshot1.png"
+      ],
+      "downloads": 1234,
+      "rating": 4.8,
+      "tags": ["theme", "dark-mode", "customization"],
+      "license": "MIT",
+      "minVersion": "1.0.0",
+      "dependencies": [
+        {
+          "name": "color-scheme",
+          "version": "^1.0.0"
+        }
+      ],
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2024-03-15",
+          "changes": [
+            "Initial release",
+            "Added 5 dark mode variants"
+          ]
+        }
+      ]
+    }
+  ]
+}
