@@ -1,20 +1,46 @@
 {
   "plugins": [
     {
-      "id": "test-plugin",
-      "name": "Test Plugin",
-      "version": "1.0.0",
-      "description": "A test plugin that adds a floating action button that changes colors when clicked",
-      "author": "AdenMGB",
-      "banner": "https://raw.githubusercontent.com/AdenMGB/desqta-plugins/refs/heads/main/plugins/test-plugin/banner.png",
-      "icon": "https://raw.githubusercontent.com/AdenMGB/desqta-plugins/refs/heads/main/plugins/test-plugin/banner.png",
-      "main": "plugin.bundle.js",
-      "documentation": "https://raw.githubusercontent.com/AdenMGB/desqta-plugins/main/plugins/test-plugin/README.md",
-      "tags": ["test", "ui", "demo"],
-      "compatibility": {
-        "minVersion": "1.0.0",
-        "maxVersion": "2.0.0"
-      }
+      "id": "dark-theme",
+      "name": "Dark Theme Pro",
+      "description": "Enhanced dark theme with customizable accent colors",
+      "version": "7.0.0",
+      "author": "DesQTA Teammm",
+      "icon": "🌙",
+      "repository": {
+        "owner": "desqta",
+        "repo": "dark-theme-pro",
+        "branch": "main"
+      },
+      "banner": {
+        "light": "https://images.unsplash.com/photo-1690321607902-d97c4b909a23?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0",
+        "dark": "https://images.unsplash.com/photo-1690321607902-d97c4b909a23?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0"
+      },
+      "readme": "# Dark Theme Pro\n\n## Features\n- 🌙 Multiple dark mode variants\n...",
+      "screenshots": [
+        "https://images.unsplash.com/photo-1690321607902-d97c4b909a23?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0"
+      ],
+      "downloads": 1234,
+      "rating": 4.8,
+      "tags": ["theme", "dark-mode", "customization"],
+      "license": "MIT",
+      "minVersion": "1.0.0",
+      "dependencies": [
+        {
+          "name": "color-scheme",
+          "version": "^1.0.0"
+        }
+      ],
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2024-03-15",
+          "changes": [
+            "Initial release",
+            "Added 5 dark mode variants"
+          ]
+        }
+      ]
     }
   ]
 }
