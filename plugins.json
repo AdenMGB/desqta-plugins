@@ -6,8 +6,8 @@
       "version": "1.0.0",
       "description": "A test plugin that adds a floating action button that changes colors when clicked",
       "author": "AdenMGB",
-      "banner": "https://raw.githubusercontent.com/AdenMGB/desqta-plugins/main/plugins/test-plugin/banner.png",
-      "icon": "https://raw.githubusercontent.com/AdenMGB/desqta-plugins/main/plugins/test-plugin/icon.png",
+      "banner": "https://raw.githubusercontent.com/AdenMGB/desqta-plugins/refs/heads/main/plugins/test-plugin/banner.png",
+      "icon": "https://raw.githubusercontent.com/AdenMGB/desqta-plugins/refs/heads/main/plugins/test-plugin/banner.png",
       "main": "plugin.bundle.js",
       "documentation": "https://raw.githubusercontent.com/AdenMGB/desqta-plugins/main/plugins/test-plugin/README.md",
       "tags": ["test", "ui", "demo"],
@@ -17,4 +17,4 @@
       }
     }
   ]
-} 
+}
